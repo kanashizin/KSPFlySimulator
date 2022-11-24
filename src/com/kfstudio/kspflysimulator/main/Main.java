@@ -4,9 +4,11 @@
  */
 package com.kfstudio.kspflysimulator.main;
 
+import com.kfstudio.kspflysimulator.windows.MainFrame;
+
 /**
  *
- * @author SadBo
+ * @author KanashiiStudio
  */
 public class Main {
 
@@ -14,7 +16,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        new MainFrame();
+
     }
     
 }
